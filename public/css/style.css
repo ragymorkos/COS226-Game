@@ -1,0 +1,136 @@
+@font-face 
+{
+    
+    font-family: crackman;
+    src: url("../fonts/crackman.ttf");
+}
+
+body
+{
+	background-image: url("../img/background.png");
+	font-family:Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+	font-weight: bold;
+	font-size:23px;
+}
+
+.right
+{
+    float:right;
+}
+
+.left
+{
+    float:left;
+}
+
+#Total
+{
+	font-style: italic;
+}
+
+#CenterButton
+{
+	text-align: center;
+}
+
+#FeedbackTitle
+{
+	font-family: crackman;
+	font-size:45px;
+	text-align: left;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#Feedback
+{
+	text-align: left;
+}
+
+#Title,#status
+{
+	font-family: crackman;
+	font-size: 70px;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+}
+
+#Results
+{
+	text-align: center;
+}
+
+#Stats
+{
+	text-align: right;
+}
+
+input[type=radio].css-checkbox 
+{
+	position:absolute; z-index:-1000; 
+	left:-1000px; overflow: hidden; 
+	clip: rect(0 0 0 0); height:1px; 
+	width:1px; margin:-1px; padding:0; 
+	border:0;
+}
+
+input[type=radio].css-checkbox + label.css-label 
+{
+	padding-left:24px;
+	height:19px; 
+	display:block;
+	line-height:19px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:23px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=radio].css-checkbox:checked + label.css-label 
+{
+	background-position: 0 -19px;
+}
+						
+label.css-label 
+{
+	background-image: url(http://csscheckbox.com/checkboxes/u/csscheckbox_2b11ffd786f26ecf4566f0437d2cd8ad.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input[type=submit].Button
+{
+ 	display: inline-block;
+ 	/* width:20%; /* setting the width */
+ 	margin:0 auto; /* this will center  it */
+	background-color:#000000;
+	color:white;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border: none;
+ 	outline:none;
+	cursor:pointer;
+	font-family:crackman;
+	font-size:30px;
+	font-weight: bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+input[type=submit].Button:hover 
+{
+	background-color:#2a2a2a;
+}
+
+input[type=submit].Button:active 
+{
+	position:relative;
+	top:1px;
+}
