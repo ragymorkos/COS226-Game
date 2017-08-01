@@ -1,2 +1,2 @@
 # COS226-Game
-This repository contains web files for a game web app for COS 226, Princeton's algorithms and data structures class.
+This repository contains web files for a game web app for COS 226, Princeton's algorithms and data structures class. The web app was created using PHP and little JavaScript. Since this website was a proof of concept, it does not utilize a real database but rather a simple CSV file to store each user's stats. 3 Levels are currently implemented on the website covering the topics of heaps, undirected graphs, and directed graphs.
