@@ -6,7 +6,7 @@ This repository contains web files for a game web app for COS 226, Princeton's a
 
 To develop or add features to the web app, simply follow these steps:
 
-1) Copy the "database.csv" file and the "includes" and "templates" directories to the root directory of your local host or web server.
+1) Copy the "includes" and "templates" directories to the root directory of your local host or web server.
 
 2) Copy the contents of the "public" folder to your local host or web server public directory (the directory that will host your web files and is accessible to the public).
 
