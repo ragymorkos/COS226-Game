@@ -1,7 +1,7 @@
 <?php
     require("path.php");
     require($path."includes/functions.php");
-	verifySession();
+    verifySession();
     render("headerStart", ["title" => "Results 01 - Undirected Graphs"]);
     render("headerEnd");
 
