@@ -1,7 +1,7 @@
 <?php
     require("path.php");
     require($path."includes/functions.php");
-	verifySession();
+    verifySession();
     render("headerStart", ["title" => "Results 03 - Directed Graphs"]);
     render("headerEnd");
 
